@@ -1,0 +1,25 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer circle with gradient -->
+  <circle cx="32" cy="32" r="30" fill="url(#blueGradient)" />
+  
+  <!-- Globe grid lines -->
+  <path d="M32 2C32 2 32 32 32 62" stroke="#ffffff" stroke-width="1" stroke-opacity="0.3" />
+  <path d="M32 2C32 2 32 32 32 62" stroke="#ffffff" stroke-width="1" stroke-opacity="0.3" transform="rotate(45 32 32)" />
+  <path d="M32 2C32 2 32 32 32 62" stroke="#ffffff" stroke-width="1" stroke-opacity="0.3" transform="rotate(90 32 32)" />
+  <path d="M32 2C32 2 32 32 32 62" stroke="#ffffff" stroke-width="1" stroke-opacity="0.3" transform="rotate(135 32 32)" />
+  
+  <!-- Latitude lines -->
+  <ellipse cx="32" cy="32" rx="30" ry="10" stroke="#ffffff" stroke-width="1" stroke-opacity="0.4" fill="none" />
+  <ellipse cx="32" cy="32" rx="30" ry="20" stroke="#ffffff" stroke-width="1" stroke-opacity="0.3" fill="none" />
+  
+  <!-- IP Location pin -->
+  <path d="M32 15C28.13 15 25 18.13 25 22C25 27.25 32 35 32 35C32 35 39 27.25 39 22C39 18.13 35.87 15 32 15ZM32 25C30.34 25 29 23.66 29 22C29 20.34 30.34 19 32 19C33.66 19 35 20.34 35 22C35 23.66 33.66 25 32 25Z" fill="#ffffff" />
+  
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="blueGradient" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2980b9" />
+      <stop offset="1" stop-color="#1a4975" />
+    </linearGradient>
+  </defs>
+</svg> 
