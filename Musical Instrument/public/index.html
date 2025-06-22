@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Web Instruments</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Web Instruments</h1>
+      <div class="selector">
+        <label for="instrument-select">Choose instrument:</label>
+        <select id="instrument-select">
+          <option value="drums">Drums</option>
+          <option value="piano">Piano</option>
+          <option value="guitar">Guitar</option>
+        </select>
+      </div>
+      <div class="selector">
+        <label>Recording Mode:</label>
+        <label
+          ><input type="radio" name="mode" value="instrument" checked />
+          Instrument Only</label
+        >
+        <label
+          ><input type="radio" name="mode" value="microphone" />
+          Microphone</label
+        >
+      </div>
+      <div id="instrument-container" class="keys"></div>
+      <div class="recording-info">
+        <div class="recording-indicator"></div>
+        <div class="timer">00:00</div>
+      </div>
+      <div class="controls">
+        <button id="record">Record</button>
+        <button id="stop" disabled>Stop</button>
+        <a id="download" download="recording.webm" class="disabled">Download</a>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p>© 2025 Web Instruments. All rights reserved.</p>
+      <p>
+        Created with <span style="color: red">❤️</span> by
+        <strong>Jaydeep</strong>
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+    <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
+  </body>
+</html>
